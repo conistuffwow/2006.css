@@ -119,6 +119,7 @@ body {
     float: right;
     width: 28%;
     padding: 10px;
+    margin: 3px;
     background: var(--split-sidebar-bg, #f4f4f4);
     border-left: 1px solid #ccc;
 }
