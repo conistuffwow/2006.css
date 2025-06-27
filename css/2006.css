@@ -20,7 +20,7 @@ body {
 .headerpanel {
     margin: 0 auto;
     width: 800px;
-    background: linear-gradient(to bottom, var(--nav-bg-start, #4096ee), var(--nav-bg-end, #306fcf));
+    background: linear-gradient(to bottom, var(--hdr-bg-start, #4096ee), var(--hdr-bg-end, #306fcf));
     color: var(--nav-text-colour, white);
     padding: 10px 15px;
     font-weight: bold;
@@ -148,4 +148,67 @@ body {
     color: black;
 }
 
+.grid {
+    overflow: hidden;
+    margin: -10px;
+}
 
+.grid .grid-item {
+    float: left;
+    width: 180px;
+    margin: 10px;
+    background: var(--grid-item-bg, #ffffff);
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    display: inline-block;
+    padding: 6px 14px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(to bottom, var(--button-colour-start, #6db3f2), var(--button-colour-end, #1e69de));
+    border: 1px solid var(--button-border-colour, #1c5bbf);
+    text-decoration: none;
+    cursor: pointer;
+    text-shadow: 0, -1px 0 rgba(0,0,0,0.3);
+    box-sizing: border-box;
+}
+button:hover {
+    background: linear-gradient(to bottom, var(--button-hover-start, #306fcf), var(--button--hover-end, #2b7bff));
+}
+
+button.green {
+    background: linear-gradient(to bottom, #6fcf6f, #2e9e2e);
+    border-color: #2b8b2b !important;
+}
+button.green:hover {
+    background: linear-gradient(to bottom, #82e082, #3ab63a);
+}
+
+button.graphite {
+    background: linear-gradient(to bottom, #969696, #6e6e6e);
+    border-color: #323232 !important;
+}
+button.graphite:hover {
+    background: linear-gradient(to bottom, #5d5d5d, #303030);
+}
+
+.floatingbox {
+    float: right;
+    width: 200px;
+    margin: 0 0 15px 15px;
+    background: var(--floatingbox-bg, #ffdd8e);
+    color: black;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+.floatingbox.left {
+    float: left;
+    margin: 0 15px 15px 0;
+}
