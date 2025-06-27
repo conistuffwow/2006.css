@@ -76,13 +76,13 @@ button:hover, input[type="button"]:hover, input[type="submit"]:hover {
     background: linear-gradient(to bottom, #005a9e, #00407a);
 }
 
-.shine-btn {
+.shine {
     position: relative;
     overflow: hidden;
     border-radius: 4px;
 }
 
-.shine-btn:before {
+.shine:before {
     content: "";
     position: absolute;
     top: 0;
@@ -94,13 +94,13 @@ button:hover, input[type="button"]:hover, input[type="submit"]:hover {
     border-top-left-radius: inherit;
     border-top-right-radius: inherit;
 }
-.gloss-btn {
+.gloss {
     position: relative;
     overflow: hidden;
     border-radius: 4px;
 }
 
-.gloss-btn:before {
+.gloss:before {
     content: "";
     position: absolute;
     top: 0;
@@ -115,7 +115,7 @@ button:hover, input[type="button"]:hover, input[type="submit"]:hover {
 .pill-btn {
     border-radius: 100px;
 }
-.pill-gloss-btn {
+.pill-btn.gloss {
     position: relative;
     overflow: hidden;
     border-radius: 100px;
