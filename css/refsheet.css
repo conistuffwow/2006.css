@@ -1,0 +1,29 @@
+* {
+    /* Body BG Colour */
+    --bg-colour: #dce3e7;
+    /* Main BG colour */
+    --container-bg: #ffffff;
+    /* Header panel start & end */
+    --hdr-bg-start: #4096ee;
+    --hdr-bg-end: #306fcf;
+    /* Header panel text colour */
+    --hdr-text--colour: #ffffff;
+    /* Navigation Strip*/
+    --navstrip-bg: #f0f0f0;
+    --navstrip-a-colour: #0066cc;
+    /* Split layout */
+    --split-main-bg: #ffffff;
+    --split-sidebar-bg: #f4f4f4;
+    /* Footer */
+    --footer-bg: #eaeaea;
+    --footer-text-colour: #666;
+    /* Grid Item */
+    --grid-item-bg: #ffffff;
+    /* Buttons */
+    --button-colour-start: #6db3f2;
+    --button-colour-end: #1e69de;
+    --button-hover-start: #306fcf;
+    --button-hover-end: #2b7bff;
+    /* Floating Box */
+    --floatingbox-bg: #ffdd8e;
+}

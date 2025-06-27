@@ -21,7 +21,7 @@ body {
     margin: 0 auto;
     width: 800px;
     background: linear-gradient(to bottom, var(--hdr-bg-start, #4096ee), var(--hdr-bg-end, #306fcf));
-    color: var(--nav-text-colour, white);
+    color: var(--hdr-text-colour, white);
     padding: 10px 15px;
     font-weight: bold;
     font-size: 16px;
